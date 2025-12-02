@@ -16,7 +16,12 @@ module.exports = {
         },
         watchFiles: ["./src/template.html"],
     },
-    plugins: [new HtmlWebpackPlugin()],
+    plugins: [
+        new HtmlWebpackPlugin(
+            {
+                template: "src/template.html"
+            }
+        )],
     mode: "development",
     module: {
         rules: [

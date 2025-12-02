@@ -1,0 +1,13 @@
+* {
+    --bg-color-darkmode: rgb(24, 23, 22);
+    --text-color-darkmode: rgb(199, 199, 199);
+}
+
+body {
+    background-color: var(--bg-color-darkmode)
+}
+
+main {
+    background-color: var(--bg-color-darkmode);
+    color: var(--text-color-darkmode);
+}
