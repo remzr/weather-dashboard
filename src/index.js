@@ -1,1 +1,4 @@
-console.log("This is index.js")
+import "./style.css";
+import { testCall } from "./user-input";
+
+testCall();
