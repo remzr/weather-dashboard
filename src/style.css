@@ -1,13 +1,36 @@
 * {
     --bg-color-darkmode: rgb(24, 23, 22);
     --text-color-darkmode: rgb(199, 199, 199);
+    font-family:'Courier New', Courier, monospace;
+
+    font-size: 1rem;
 }
 
 body {
-    background-color: var(--bg-color-darkmode)
+    background-color: var(--bg-color-darkmode);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    overflow: hidden;
 }
 
 main {
     background-color: var(--bg-color-darkmode);
     color: var(--text-color-darkmode);
+    
+    border: var(--text-color-darkmode) solid 1px;
+    padding: 32px;
+    border-radius: 32px;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 120%;
 }
